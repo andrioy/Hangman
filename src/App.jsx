@@ -33,10 +33,7 @@ function App() {
         } else {
           if (!wrongLetters.includes(letter)) {
             setWrongLetters((wrongLetters) => [...wrongLetters, letter]);
-
-            // console.log(wrongLetters);
           } else {
-            // showNotification();
             show(setShowNotification);
           }
         }

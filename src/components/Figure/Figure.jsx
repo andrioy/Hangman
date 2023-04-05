@@ -2,7 +2,6 @@ import React from "react";
 
 const Figure = ({ wrongLetters }) => {
   const errors = wrongLetters.length;
-  console.log(errors > 0);
   return (
     <svg height="250" width="200" className="figure-container">
       {/* <!-- Rod --> */}
